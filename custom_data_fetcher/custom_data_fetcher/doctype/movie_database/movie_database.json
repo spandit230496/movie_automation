@@ -1,0 +1,163 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:movie_name",
+ "creation": "2024-12-02 08:14:34.824293",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_wyva",
+  "summary",
+  "movie_name",
+  "directed_by",
+  "screenplay_by",
+  "based_on",
+  "produced_by",
+  "starring",
+  "column_break_tr4n",
+  "cinematography",
+  "edited_by",
+  "music_by",
+  "production_company",
+  "distributed_by",
+  "release_by",
+  "running_time",
+  "country",
+  "language",
+  "budget",
+  "box_office",
+  "movie_url"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_wyva",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "summary",
+   "fieldtype": "Text",
+   "label": "Summary"
+  },
+  {
+   "fieldname": "movie_name",
+   "fieldtype": "Data",
+   "label": "Movie Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "directed_by",
+   "fieldtype": "Data",
+   "label": "Directed By"
+  },
+  {
+   "fieldname": "screenplay_by",
+   "fieldtype": "Data",
+   "label": "Screenplay By"
+  },
+  {
+   "fieldname": "based_on",
+   "fieldtype": "Data",
+   "label": "Based On"
+  },
+  {
+   "fieldname": "produced_by",
+   "fieldtype": "Data",
+   "label": "Produced By"
+  },
+  {
+   "fieldname": "starring",
+   "fieldtype": "Data",
+   "label": "Starring"
+  },
+  {
+   "fieldname": "column_break_tr4n",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cinematography",
+   "fieldtype": "Data",
+   "label": "Cinematography"
+  },
+  {
+   "fieldname": "edited_by",
+   "fieldtype": "Data",
+   "label": "Edited By"
+  },
+  {
+   "fieldname": "music_by",
+   "fieldtype": "Data",
+   "label": "Music By"
+  },
+  {
+   "fieldname": "production_company",
+   "fieldtype": "Data",
+   "label": "Production Company"
+  },
+  {
+   "fieldname": "distributed_by",
+   "fieldtype": "Data",
+   "label": "Distributed By"
+  },
+  {
+   "fieldname": "release_by",
+   "fieldtype": "Data",
+   "label": "Release By"
+  },
+  {
+   "fieldname": "running_time",
+   "fieldtype": "Data",
+   "label": "Running Time"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "language",
+   "fieldtype": "Data",
+   "label": "Language"
+  },
+  {
+   "fieldname": "budget",
+   "fieldtype": "Data",
+   "label": "Budget"
+  },
+  {
+   "fieldname": "box_office",
+   "fieldtype": "Data",
+   "label": "Box Office"
+  },
+  {
+   "fieldname": "movie_url",
+   "fieldtype": "Data",
+   "label": "Movie Url"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-13 16:34:15.617969",
+ "modified_by": "Administrator",
+ "module": "Custom Data Fetcher",
+ "name": "Movie Database",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

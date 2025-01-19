@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-07 15:11:21.438652",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_oboa",
+  "data_source_id",
+  "status",
+  "number_of_entries",
+  "start_time",
+  "end_time",
+  "column_break_cnor",
+  "error_log"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_oboa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data_source_id",
+   "fieldtype": "Link",
+   "label": "Data Source Id",
+   "options": "Data Source"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Scheduled\nRunning\nProcessing\nCompleted\nFailed"
+  },
+  {
+   "fieldname": "number_of_entries",
+   "fieldtype": "Data",
+   "label": "Number of Entries"
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Datetime",
+   "label": "Start time"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Datetime",
+   "label": "End Time"
+  },
+  {
+   "fieldname": "column_break_cnor",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "error_log",
+   "fieldtype": "Text",
+   "label": "Error Log"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-07 21:15:44.272994",
+ "modified_by": "Administrator",
+ "module": "Custom Data Fetcher",
+ "name": "Background Job",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
